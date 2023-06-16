@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div>
+  
+        <header>
+            <nav className="nav ">
+            <a href="#home">
+                <img src="./assets/img/logo 1.png" alt="logo" className="logo" id="logo" />
+            </a>
+            <div className="nav__menu">
+                <ul className="nav__list">
+                <li className="nav__item">
+                    <a href="#home" className="nav__link" title="Home">Home</a>
+                    <a href="#home" title="Home"><i className="uil uil-estate menu-icon" /></a>
+                </li>
+                <li className="nav__item">
+                    <a href="#skills" className="nav__link" title="Teck Stack">Skills</a>
+                    <a href="#skills" title="Teck Stack"><i className="uil uil-trophy menu-icon" /></a>
+                </li>
+                <li className="nav__item">
+                    <Link to="Project">
+                       <a href="#project" className="nav__link" title="Project">Protfolio</a>
+                    </Link>
+                    
+                    <a href="#project" title="Project"><i className="uil uil-scenery menu-icon" /></a>
+                </li>
+                <li className="nav__item">
+                    <Link to="ErrorPage">
+                      <a href="#contact" className="nav__link" title="Contack">Contact Us</a>
+
+
+                    </Link>
+                    
+                    <a href="#contact" title="Contact"><i className="uil uil-comment menu-icon" /></a>
+                </li>
+                </ul>
+            </div>
+            </nav>
+        </header>
+        {/* ============== HOME ============== */}
+        <main className="main">
+            <div className="home" id="home">
+            <div className="home__title">         
+                <h1>Hi 👋,<br /> My name is <br />
+                <span>Sumit Sharma.</span><br /> React Js Developer
+                </h1>
+                <a href="https://api.whatsapp.com/send?phone=9311870970&text=hii sumit sharma">
+                <button className="home__btn">Contact Us</button>
+                </a>
+            </div>
+            <div className="home__image">
+                <img src="./assets/img/su.jpeg" alt />
+            </div>
+            </div>
+            {/* ============== SKILLS ============== */}
+            <section id="skills">
+            <div className="skill">
+                <div className="skill__heading-section">
+                <h2 className="skill__heading">Skills</h2>
+                <p className="skill__paragraph">Technologies I’ve been working with recently</p>
+                </div>
+                <div className="skill__languages">
+                <div className="language">
+                    <img src="./assets/img/svg/html-icon.svg" alt />
+                </div>
+                <div className="language">
+                    <img src="./assets/img/svg/css-icon.svg" alt />
+                </div>
+                <div className="language">
+                    <img src="./assets/img/svg/js-icon.svg" alt />
+                </div>
+                <div className="language">
+                    <img src="./assets/img/svg/logos_sass.svg" alt />
+                </div>
+                <div className="language">
+                    <img src="./assets/img/svg/logos_git-icon.svg" alt />
+                </div>
+                <div className="language ">
+                    <img src="./assets/img/svg/git-icon.svg" className="github" alt />
+                </div>
+                </div>
+            </div>
+            </section>
+            {/* ============== PROJECTS ============== */}
+            <section id="project">
+            <div className="project">
+                <div className="project__heading-section">
+                <h2 className="project__heading">Protfolio</h2>
+                <p className="project__paragraph">Things I’ve built so far</p>
+                </div>
+                <div className="project__card-container">
+                <div className="project__card">
+                    <div className="project__card-poster">
+                    <img src="./assets/img/5.png" />
+                    </div>
+                    <div className="project__card-text-container">
+                    <h2 className="project__card-title">Website</h2>
+                    <div className="card-description">
+                        <p className="project__card-description">Responsive website Using HTML, CSS &amp; JavaScript. Contains animations when scrolling.</p>
+                    </div>
+                    <div className="project__used-language">
+                        <h4 className="project__used-language-heading">Tech Stack: </h4>
+                        <p className="project__used-language-name">HTML, JavaScript, CSS</p>
+                    </div>
+                    <div className="preview-and-source-code">
+                        <div className="live-preview">
+                        <i className="uil uil-link" />
+                        <a href="https://kvinaaaaykumar.github.io/tztsumit/protfolio2/index.html">Live Preview</a>
+                        </div>
+                        {/* <div className="source-code">
+                        <i className="uil uil-github" />
+                        <a href="https://github.com/GulfamAhmad2/My-Porfolio">View Code</a>
+                        </div> */}
+                    </div>
+                    </div>
+                </div>
+
+                <div className="project__card">
+                    <div className="project__card-poster">
+                    <img src="./assets/img/pr6.png" alt />
+                    </div>
+                    <div className="project__card-text-container">
+                    <h2 className="project__card-title">NFT-Landing-Page</h2>
+                    <div className="card-description">
+                        <p className="project__card-description">
+                        Responsive NFT-Landing-Page Using HTML, CSS. Contains animations when scrolling. Developed desktop first with the First methodology, then for Mobile.
+                        </p>
+                    </div>
+                    <div className="project__used-language">
+                        <h4 className="project__used-language-heading">Tech Stack: </h4>
+                        <p className="project__used-language-name">HTML, CSS, JavaScript</p>
+                    </div>
+                    <div className="preview-and-source-code">
+                        <div className="live-preview">
+                        <i className="uil uil-link" />
+                        <a href="https://nftwithgulfam.netlify.app/">Live Preview</a>
+                        </div>
+                        {/* <div className="source-code">
+                        <i className="uil uil-github" />
+                        <a href="https://github.com/GulfamAhmad2/NFT-Landing-Page">View Code</a>
+                        </div> */}
+                    </div>
+                    </div>
+                </div>
+                
+                <div className="project__card">
+                    <div className="project__card-poster">
+                    <img src="./assets/img/pr-8.png" alt />
+                    </div>
+                    <div className="project__card-text-container">
+                    <h2 className="project__card-title">Coc-Stats</h2>
+                    <div className="card-description">
+                        <p className="project__card-description">Responsive Coc-Stats Use React js. Developed first for mobile then desktop.</p>
+                    </div>
+                    <div className="project__used-language">
+                        <h4 className="project__used-language-heading">Tech Stack: </h4>
+                        <p className="project__used-language-name">React Js</p>
+                    </div>
+                    <div className="preview-and-source-code">
+                        <div className="live-preview">
+                        <i className="uil uil-link" />
+                        <a href="https://coc-stats.netlify.app/">Live Preview</a>
+                        </div>
+                        {/* <div className="source-code">
+                        <i className="uil uil-github" />
+                        <a href="https://github.com/GulfamAhmad2/coc-stats">View Code</a>
+                        </div> */}
+                    </div>
+                    </div>
+                </div>
+                
+                <div className="project__card">
+                    <div className="project__card-poster">
+                    <img src="./assets/img/pr3.png" alt />
+                    </div>
+                    <div className="project__card-text-container">
+                    <h2 className="project__card-title">Exploration-Page</h2>
+                    <div className="card-description">
+                        <p className="project__card-description">Responsive Exploration-Landing-Page Using HTML, SASS &amp; JavaScript. Contains animations when scrolling. Developed first for mobile then desktop.</p>
+                    </div>
+                    <div className="project__used-language">
+                        <h4 className="project__used-language-heading">Tech Stack: </h4>
+                        <p className="project__used-language-name">React Js</p>
+                    </div>
+                    <div className="preview-and-source-code">
+                        <div className="live-preview">
+                        <i className="uil uil-link" />
+                        <a href>Live Preview</a>
+                        </div>
+                        {/* <div className="source-code">
+                        <i className="uil uil-github" />
+                        <a href="https://github.com/GulfamAhmad2/exploration-landing-page">View Code</a>
+                        </div> */}
+                    </div>
+                    </div>
+                </div>
+                <div className="project__card">
+                    <div className="project__card-poster">
+                    <img src="./assets/img/pr-7.png" alt />
+                    </div>
+                    <div className="project__card-text-container">
+                    <h2 className="project__card-title">Huda..</h2>
+                    <div className="card-description">
+                        <p className="project__card-description">Full Resposive Design Portfolio. Developed first for mobile then desktop .</p>
+                    </div>
+                    <div className="project__used-language">
+                        <h4 className="project__used-language-heading">Tech Stack: </h4>
+                        <p className="project__used-language-name">React Js</p>
+                    </div>
+                    <div className="preview-and-source-code">
+                        <div className="live-preview">
+                        <i className="uil uil-link" />
+                        <a href="https://huda-portfolio.netlify.app/">Live Preview</a>
+                        </div>
+                        {/* <div className="source-code">
+                        <i className="uil uil-github" />
+                        <a href="https://github.com/GulfamAhmad2/Huda-portfolio">View Code</a>
+                        </div> */}
+                    </div>
+                    </div>
+                </div>
+                
+                
+                <div className="project__card">
+                    <div className="project__card-poster">
+                    <img src="./assets/img/pr5.png" alt />
+                    </div>
+                    <div className="project__card-text-container">
+                    <h2 className="project__card-title">Food-Landing-Page</h2>
+                    <div className="card-description">
+                        <p className="project__card-description">Responsive Login Using Formik Yup Css and Reactjs. Developed first for desktop then mobile.</p>
+                    </div>
+                    <div className="project__used-language">
+                        <h4 className="project__used-language-heading">Tech Stack: </h4>
+                        <p className="project__used-language-name">Formik Yup Css and Reactjs</p>
+                    </div>
+                    <div className="preview-and-source-code">
+                        <div className="live-preview">
+                        <i className="uil uil-link" />
+                        <a href="https://loginwithgulfam.netlify.app">Live Preview</a>
+                        </div>
+                        {/* <div className="source-code">
+                        <i className="uil uil-github" />
+                        <a href="https://github.com/GulfamAhmad2/Login">View Code</a>
+                        </div> */}
+                    </div>
+                    </div>
+                </div>
+                </div>
+                 <Link to="Project">
+                  <button className="home__btn more-btn">More</button>
+
+                 </Link>
+                
+                
+            </div></section>
+            {/* ============== Contact ============== */}
+            <section className="contact" id="contact">
+            <h2 className="contact__heading">Contact Me</h2>
+            <div className="contact__contact-body">
+                <div className="contact__direct-contact">
+                <div className="contact__mobie-number">
+                    <p className="whatsapp sm">What'sapp</p>
+                    <a href="https://api.whatsapp.com/send?phone=9311870970&text=hii sumit sharma" className="mob-num sm">+919311870970</a>
+                </div>
+                <div className="contact__social-media">
+                    <p className="sm">Contact Me</p>
+                </div>
+                </div>
+                <form className="contact__contact-form" id="form">
+                <div className="contact__name ">
+                    <label className="text">Name</label>
+                    <input type="text" className="user-name" placeholder="Write your name" name="user_name" />
+                </div>
+                <div className="contact__name ">
+                    <label className="text">Email</label>
+                    <input type="email" className="email" placeholder="Write your email" name="user_name" />
+                </div>
+                <div className="contact__name ">
+                    <label className="text">Message</label>
+                    <textarea className="textarea" placeholder="Write your message" name="user_message" defaultValue={""} />
+                </div>
+                <p className="warn">Message</p>
+                <button type="submit" className="home__btn">Submit</button>
+                </form>
+            </div>
+            </section>
+            {/* ============== Footer ============== */}
+            <footer>
+            <p className="copy-right">Copyright © 2023 Sumit Sharma</p>
+            </footer>
+            <div className="button-UP">
+            <a href="#" className="btn-up"><i className="uil uil-arrow-up" /></a>
+            </div>
+        </main>
+        {/* ============== Scroll Reveal Js ============== */}
+        {/* ============== Main Js ============== */}
+        {/* ============== Email Js ============== */}
+    </div>
+</body>
+</html>
